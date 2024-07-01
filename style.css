@@ -74,3 +74,60 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .container {
+        margin: 8%; /* Adjusted margin for smaller screens */
+    }
+
+    .container h1 {
+        font-size: 2.5rem; /* Adjusted font size for smaller screens */
+    }
+
+    .display {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .display input {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .display img {
+        margin-top: 10px;
+    }
+
+    .container button {
+        font-size: 1.4rem; /* Adjusted font size for smaller screens */
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 6%; /* Further adjusted margin for smaller screens */
+        padding: 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .container h1 {
+        font-size: 2rem; /* Further adjusted font size for smaller screens */
+    }
+
+    .display {
+        padding: 15px;
+    }
+
+    .display input {
+        font-size: 1.4rem; /* Further adjusted font size for smaller screens */
+        padding: 8px;
+    }
+
+    .display img {
+        width: 20px; /* Further adjusted image size for smaller screens */
+    }
+
+    .container button {
+        font-size: 1.2rem; /* Further adjusted font size for smaller screens */
+    }
+}
